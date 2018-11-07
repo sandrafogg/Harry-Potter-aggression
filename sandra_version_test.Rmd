@@ -1,0 +1,28 @@
+---
+title: "Harry Potter Lab Week 6"
+author: "Sandra Fogg"
+date: "11/7/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include = FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(pwr)
+library(ggrepel)
+library(extrafont)
+library(lubridate)
+library(plotly)
+```
+
+```{r, include = FALSE}
+# Read Data
+hp_df <- read_csv("harry_potter_aggression_full.csv")
+```
+
+# At this point, Save a version to keep it stored
